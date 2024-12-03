@@ -1,22 +1,18 @@
-To properly represent the link to your demo website in a "Website Link Folder" or documentation, you should include clear and concise information to help users and evaluators understand what the link leads to and how to use the website. Here's how you can organize and present it:
 
----
 
-### **Representation of the Website Link in the Website Link Folder**
-
-#### **1. Title**  
+#### ** Title**  
 **Video Game Sales Tracker Demo Website**
 
 ---
 
-#### **2. Website Link**  
+#### ** Website Link**  
 [Click Here to Access the Website](https://sujalpanchal1206.wixsite.com/peakyblinders-sale-2)  
 
 (Alternatively, provide the raw URL: https://sujalpanchal1206.wixsite.com/peakyblinders-sale-2)
 
 ---
 
-#### **3. Description of the Website**  
+#### ** Description of the Website**  
 The **Video Game Sales Tracker** is an interactive platform that allows users to explore comprehensive data about video game sales spanning from 1996 to 2016. Users can input specific details like a year and game name to obtain detailed insights, including:  
 - **Genre**  
 - **Publisher**  
@@ -27,7 +23,7 @@ The **Video Game Sales Tracker** is an interactive platform that allows users to
 
 ---
 
-#### **4. Key Features of the Website**  
+#### ** Key Features of the Website**  
 - **Interactive Input Fields**:  
   Users can search for a specific game by entering its name and the year of release.  
 - **Detailed Output**:  
@@ -37,7 +33,7 @@ The **Video Game Sales Tracker** is an interactive platform that allows users to
 
 ---
 
-#### **5. How to Use the Website**  
+#### ** How to Use the Website**  
 1. **Access the Link**:  
    Visit the provided link using any web browser:  
    [Video Game Sales Tracker Demo](https://sujalpanchal1206.wixsite.com/peakyblinders-sale-2).  
