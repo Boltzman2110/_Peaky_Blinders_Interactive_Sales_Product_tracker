@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Sales Search</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: auto; }
+        input, button { margin: 5px 0; padding: 10px; width: 100%; }
+        .result, .error { margin-top: 20px; padding: 10px; border: 1px solid #ddd; }
+        .result { background-color: #e8f5e9; }
+        .error { background-color: #ffebee; color: red; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Search Video Game Sales</h1>
+        <form method="POST" action="/search">
+            <input type="text" name="year" placeholder="Enter Year" required>
+            <input type="text" name="game_name" placeholder="Enter Game Name" required>
+            <button type="submit">Search</button>
+        </form>
+        
+        {% if result %}
+            <div class="result">
+                <h3>Game Sales Data</h3>
+                <p><strong>Game:</strong> {{ result['Game'] }}</p>
+                <p><strong>Year:</strong> {{ result['Year'] }}</p>
+                <p><strong>Sales:</strong> {{ result['Sales'] }}</p>
+            </div>
+        {% elif error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
