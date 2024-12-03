@@ -63,7 +63,7 @@ This project was a collaborative effort involving four team members, each contri
 1. **[Dhyan_Patel]**: Led the **data preprocessing** phase, ensuring data consistency and preparing it for analysis.
 2. **[Krish_Prajapati]**: Designed and implemented **interactive visualizations** using Plotly Express.
 3. **[Dharm_Patel]**: Conducted **statistical analysis** and generated insights into sales trends and publisher performance.
-4. **[Sujal_Panchal]**: Developed the **Wix Studio interface**, integrating visualizations into a user-friendly web platform.
+4. **[Sujal_Panchal]**: Developed the **Wix Studio interface**, integrating visualizations into a user-friendly web platform.Prepared the project documentation and analyzed the regional sales trends.
 
 ---
 
